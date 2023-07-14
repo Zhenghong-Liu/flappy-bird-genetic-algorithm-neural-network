@@ -103,7 +103,7 @@ def manual_game():
         screen.fill(BG_COLOR)
 
         # Draw bird
-        pygame.draw.circle(screen, RED, (bird.x, bird.y), bird.width)
+        pygame.draw.circle(screen, RED, (bird.x, bird.y), bird.width//2)
 
         # Update bird
         bird.update()
